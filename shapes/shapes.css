@@ -20,13 +20,21 @@
     margin: 50px;
 }
 #pacman{
-    width: 0;
-    height: 0;
+    margin: 50px;
+}
+.pacman1{
+    width: 200px;
+    height: 100px;
     background-color: red;
-    border-radius: 50%;
-    margin: 50px;
-    border-style: solid;
-    border-width: 100px 0 100px 100px;
-    border-color: transparent red transparent transparent;
-    margin: 50px;
+    border-radius: 100px 100px 0 0;
+    transform: rotate(-45deg);
+    margin: -10px 0 0 0;
+}
+.pacman2{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border-radius: 0 0 100px 100px;
+    transform: rotate(45deg);
+    margin: -20px 0 0 0;
 }
